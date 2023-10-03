@@ -15,7 +15,7 @@ namespace ASP_ENTITY
             var searchName = Console.ReadLine();
 
             var customer = context.Customers
-                .Where(s => s.Name == searchName)
+                .Where(c => c.Name == searchName)
                 .First();
 
             if (customer != null)
