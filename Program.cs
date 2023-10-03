@@ -16,7 +16,7 @@ namespace ASP_ENTITY
 
             var customer = context.Customers
                 .Where(c => c.Name == searchName)
-                .First();
+                .FirstOrDefault();
 
             if (customer != null)
             {
