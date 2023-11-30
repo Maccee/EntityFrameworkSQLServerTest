@@ -1,3 +1,3 @@
 # EntityFrameworkSQLServerTest
 
-This is a tutorial where we used entity framework and its tools to create dbcontext and model for azure sql database.
+This tutorial project involves creating a DbContext and model using Entity Framework and its tools. The source of the data is an SQL database, which is set up and managed within a Docker container.
